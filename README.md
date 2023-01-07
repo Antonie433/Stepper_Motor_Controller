@@ -6,3 +6,4 @@ generated based on the current state and next state of the stepper motor and the
 advances the current state and next step of the stepper motor based on the control signals to the control signals.
 
 A testbech file test and simulate the stepper_motor entity to make sure it works good, and show diffent states of motor.
+This testbench generates a clock signal and uses a process to define a test case by sending values to the stepper motor controller inputs (direction and step). Wecuse the outputs (phase_a, phase_b, phase_c, phase_d) to verify that the behavior of the controller is correct.
